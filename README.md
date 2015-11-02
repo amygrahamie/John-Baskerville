@@ -6,4 +6,4 @@ Each week we will be building on this project as we progress through HTML and CS
 2nd November 2015
 -----------------
 
-- [Version 1](https://amygrahamie.github.com/John-Baskerville/blob/version1.html) - Marked up plain text file as an HTML5 page.
+- [Version 1]<hef>https://amygrahamie.github.com/John-Baskerville/blob/version1.html)</hef> - Marked up plain text file as an HTML5 page.
