@@ -6,4 +6,4 @@ Each week we will be building on this project as we progress through HTML and CS
 2nd November 2015
 -----------------
 
-- [Version 1](https://github.com/amygrahamie/John-Baskerville/blob/gh-pages/John-Baskerville.md)
+- [Version 1](https://github.com/amygrahamie/John-Baskerville/blob/gh-pages/John-Baskerville.md) - Marked up plain text file as an HTML5 page.
