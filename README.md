@@ -1,7 +1,7 @@
 John Baskerville Project
 ========================
 
-Each week we will be building on this project as we progress through HTML and CSS. This exercise is part of the <hef>(http://ixdbelfast.org)</hef> module
+Each week we will be building on this project as we progress through HTML and CSS. This exercise is part of the <hef>http://ixdbelfast.org</hef> module IxD-102.
 
 2nd November 2015
 -----------------
