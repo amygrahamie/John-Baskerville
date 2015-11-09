@@ -12,4 +12,4 @@ Each week we will be building on this project as we progress through HTML and CS
 -----------------
 
 - [Version 2](https://amygrahamie.github.io/John-Baskerville/version2.html) - Added lists
-- [Version 3](https://amygrahamie.github.io/John-Baskerville/version3.html) - Adding Hyperlinks
+- [Version 3](https://amygrahamie.github.io/John-Baskerville/version3.html) - Adding Hyperlinks, Anchors, and links to other pages.
