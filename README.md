@@ -8,6 +8,9 @@ Each week we will be building on this project as we progress through HTML and CS
 
 - [Version 1](https://amygrahamie.github.io/John-Baskerville/version1.html) - Marked up plain text file as an HTML5 page.
 
+9th November 2015
+-----------------
+
 - [Version 2](https://amygrahamie.github.io/John-Baskerville/version2.html) - Added lists
 
 
