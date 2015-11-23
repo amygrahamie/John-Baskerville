@@ -18,3 +18,7 @@ Each week we will be building on this project as we progress through HTML and CS
 ------------------
 - [Version 4](https://amygrahamie.github.io/John-Baskerville/version4.html) - Building our text into tables
 - [Version 5](https://amygrahamie.github.io/John-Baskerville/version5.html) - Adding images
+
+23rd November 2015
+------------------
+- [Version 7](https://amygrahamie.github.io/John-Baskerville/version7.html) - Building our text into tables
