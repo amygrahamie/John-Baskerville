@@ -11,6 +11,7 @@ body {
     
         a:link {
         text-decoration: none;
+            letter-spacing: 2px;
 }
         /* unvisited link */
         a:link {
@@ -21,25 +22,60 @@ body {
         a:visited {
         color: darkgray;
 }
-        
-      /* TYPOGRAPHY */
-        
-        h2, h3 {
-        font-weight: normal;
-        color: hotpink;
-        font-size: 2.25;}
-        }
 
-        h1 {
+/* mouse over link */
+a:hover {
+    color: lightpink;
+    border-bottom: 1px dotted;
+}
+      /* TYPOGRAPHY */
+    
+h1 {
         font-weight: bolder;
         font-size: 4;
+        text-align: center;
+        }        
+
+
+        h2 {
+        font-weight: normal;
+        color: hotpink;
+        font-size: 2.25;
+        text-align: left;
         }
 
+        h3 {
+        font-weight: normal;
+        color: hotpink;
+        font-size: 1.5;
+        text-align: left;
+        }
 
-h3 {font-size: 1.5;}
+header h2 {text-align: center;
+font-style: italic;
+}
 
 
- 
-.intro {font-size: 1.5em;
-line-height: 1.9em;
-padding: 2em 0 2em 0;}
+
+/* -------------NAV --------------- */
+
+nav {
+        border-top: 1px solid hotpink;
+        border-bottom: 1px solid hotpink;
+}
+
+nav ul {
+    text-align: center;
+}
+
+nav ul li { display: inline;
+            margin: 10px;
+}
+
+
+blockquote { border-top: 1px solid hotpink;
+        border-bottom: 1px solid hotpink;
+}
+
+
+
