@@ -9,6 +9,10 @@ body {
             line-height: 1.5em;
         }
     
+
+
+ /*-----------------HYPERLINKS--------------*/
+
         a:link {
         text-decoration: none;
             letter-spacing: 2px;
@@ -28,33 +32,37 @@ a:hover {
     color: lightpink;
     border-bottom: 1px dotted;
 }
-      /* TYPOGRAPHY */
-    
-h1 {
+
+
+/*----------- TYPOGRAPHY------------------- */
+   
+  h1 {
         font-weight: bolder;
-        font-size: 4;
+        font-size: 3.4em;
         text-align: center;
-        }        
+        }
 
 
         h2 {
         font-weight: normal;
         color: hotpink;
-        font-size: 2.25;
-        text-align: left;
+        font-size: 2em;
+        line-height: 1em;
         }
 
         h3 {
         font-weight: normal;
         color: hotpink;
-        font-size: 1.5;
+        font-size: 1.5em;
         text-align: left;
+        line-height: 1em;
+        padding: -0.5em 0 1em 0;
         }
 
 header h2 {text-align: center;
 font-style: italic;
+font-size: 2.3em;
 }
-
 
 
 /* -------------NAV --------------- */
@@ -73,9 +81,26 @@ nav ul li { display: inline;
 }
 
 
-blockquote { border-top: 1px solid hotpink;
+blockquote {
+    padding: 2em 0;
+    line-height: 1.2em;
+    font-size: 1.30em;
+    margin: 0;
+}
+blockquote {
+            border-top: 1px solid hotpink;
         border-bottom: 1px solid hotpink;
 }
 
+blockquote cite { 
+    font-style: italic;
+    font-size: 0.75em;
+}
 
+table caption {
+    font-weight: bolder;
+    text-align: left;
+    color: hotpink;
+}
+ 
 
