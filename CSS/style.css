@@ -1,14 +1,18 @@
+
+
+
 body { 
-            width: 90%;
-            max-width: 650px;
+            width: 75%;
+            max-width: 700px;
             min-height: 320px;
             font-size: 100%;
             font-family: 'Libre Baskerville', Georgia; 
             margin: auto;
             color: darkgray;
-            line-height: 1.5em;
+            line-height: 1.7em;
         }
-    
+
+section {padding 4em 0 4em 0}
 
 
  /*-----------------HYPERLINKS--------------*/
@@ -38,8 +42,9 @@ a:hover {
    
   h1 {
         font-weight: bolder;
-        font-size: 3.4em;
+        font-size: 3.5em;
         text-align: center;
+        margin-bottom: .25em;
         }
 
 
@@ -47,21 +52,24 @@ a:hover {
         font-weight: normal;
         color: hotpink;
         font-size: 2em;
-        line-height: 1em;
+        text-align: center;
         }
 
         h3 {
         font-weight: normal;
         color: hotpink;
         font-size: 1.5em;
-        text-align: left;
-        line-height: 1em;
-        padding: -0.5em 0 1em 0;
+        text-align: center;
         }
 
 header h2 {text-align: center;
 font-style: italic;
-font-size: 1.9em;
+font-size: 1.8em;
+}
+
+.intro {
+        font-size: 1.25em;
+        line-height: 1.7em;
 }
 
 
@@ -88,8 +96,12 @@ blockquote {
     margin: 0;
 }
 blockquote {
+            padding: 2em 0;
+            font-size: 1.5em;
+            line-height: 1.5em;
+            margin: 0;
             border-top: 1px solid hotpink;
-        border-bottom: 1px solid hotpink;
+            border-bottom: 1px solid hotpink;
 }
 
 blockquote cite { 
@@ -99,24 +111,27 @@ blockquote cite {
 
 table caption {
     font-weight: bolder;
-    text-align: left;
+    text-align: center;
     color: hotpink;
     text-transform: uppercase;
+    font-size: .95em;
+    padding-bottom: .6em;
 }
 
 table {
+            table: center;
             margin: auto;
             width: 100%
             display: table;
             border-collapse: collapse;
-            border-spacing: 2px;
+            border-spacing: 3px;
 }
 
 th {
             color: #333;
             text-transform: uppercase;
             font-weight: normal;
-            text-align: left;
+            text-align: center;
             background: hotpink;
 }
  
@@ -124,3 +139,17 @@ table, th, td {
             border: 1px dotted #fff;
 }
 
+footer {
+    line-height: 1.2em;
+    padding-bottom: 2em;
+}
+
+.footer padding { padding-top: 3em;
+}
+
+img {
+    display: block;
+    margin: 1em auto; /* This sets the margin top and bottom to 0px. The auto on the left and right will automatically calculate the space either side and split it evenly between the two margins. */
+    padding: 0;
+    max-width: 100%; /* This means that the images will resize to fit the parent container instead of just rendering at its native width and overflowing its containing box. */
+   /* border: #c06 5px solid; */
