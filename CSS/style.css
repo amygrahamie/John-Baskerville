@@ -101,6 +101,26 @@ table caption {
     font-weight: bolder;
     text-align: left;
     color: hotpink;
+    text-transform: uppercase;
+}
+
+table {
+            margin: auto;
+            width: 100%
+            display: table;
+            border-collapse: collapse;
+            border-spacing: 2px;
+}
+
+th {
+            color: #333;
+            text-transform: uppercase;
+            font-weight: normal;
+            text-align: left;
+            background: hotpink;
 }
  
+table, th, td {
+            border: 1px dotted #fff;
+}
 
