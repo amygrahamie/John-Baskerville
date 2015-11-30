@@ -25,4 +25,4 @@ Each week we will be building on this project as we progress through HTML and CS
 
 30th November 2015
 ------------------
-- [Version 7](file:///Users/amygraham/GitHub/John-Baskerville/version7.html) - Building our text into tables
+- [Version 7](https://github.com/amygrahamie/John-Baskerville/blob/gh-pages/version7.html) - Building our text into tables
