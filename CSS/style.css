@@ -112,7 +112,7 @@ table {
             border-spacing: 2px;
 }
 
-table.head, th {
+th {
             color: #333;
             text-transform: uppercase;
             font-weight: normal;
