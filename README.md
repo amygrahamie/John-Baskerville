@@ -21,4 +21,4 @@ Each week we will be building on this project as we progress through HTML and CS
 
 23rd November 2015
 ------------------
-- [Version 7](https://amygrahamie.github.io/John-Baskerville/version7.html) - Building our text into tables
+- [Version 7](https://amygrahamie.github.io/John-Baskerville/version7.html)[](https://amygrahamie.github.io/John-Baskerville/CSS/style.css) - Building our text into tables
