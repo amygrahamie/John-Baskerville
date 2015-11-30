@@ -21,12 +21,8 @@ Each week we will be building on this project as we progress through HTML and CS
 
 23rd November 2015
 ------------------
-<<<<<<< HEAD
-- [Version 7](https://amygrahamie.github.io/John-Baskerville/version7.html)[](https://amygrahamie.github.io/John-Baskerville/CSS/style.css) - Building our text into tables
-=======
 - [Version 6](https://amygrahamie.github.io/John-Baskerville/version6.html)
-- [Version 7](https://amygrahamie.github.io/John-Baskerville/version7.html) - Building our text into tables
 
 30th November 2015
 ------------------
->>>>>>> origin/gh-pages
+- [Version 7](https://amygrahamie.github.io/John-Baskerville/version7.html) - Building our text into tables
