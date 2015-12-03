@@ -40,11 +40,16 @@ a:hover {
 
 /*----------- TYPOGRAPHY------------------- */
    
-  h1 {
+p, li {
+    line-height: 1.8em;
+    margin-bottom: 2em;
+} 
+
+h1 {
         font-weight: bolder;
         font-size: 3.5em;
         text-align: center;
-        margin-bottom: .25em;
+        margin-bottom: .1em;
         }
 
 
@@ -53,6 +58,7 @@ a:hover {
         color: hotpink;
         font-size: 2em;
         text-align: center;
+        margin-bottom: 1em;
         }
 
         h3 {
@@ -61,6 +67,10 @@ a:hover {
         font-size: 1.5em;
         text-align: center;
         }
+
+hgroup {
+    margin-bottom: 3em;
+}
 
 header h2 {text-align: center;
 font-style: italic;
@@ -90,7 +100,7 @@ nav ul li { display: inline;
 
 
 blockquote {
-    padding: 2em 0;
+    padding: 1em 0 2em 0;
     line-height: 1.2em;
     font-size: 1.30em;
     margin: 0;
@@ -102,6 +112,12 @@ blockquote {
             margin: 0;
             border-top: 1px solid hotpink;
             border-bottom: 1px solid hotpink;
+}
+
+blockquote p {
+    color: hotpink;
+    hanging-punctuation: first;
+    text-indent: -0.5em;
 }
 
 blockquote cite { 
@@ -136,7 +152,11 @@ th {
 }
  
 table, th, td {
-            border: 1px dotted #fff;
+            border: 1px solid black;
+}
+
+th, td {
+    padding: .6em;
 }
 
 footer {
@@ -153,3 +173,45 @@ img {
     padding: 0;
     max-width: 100%; /* This means that the images will resize to fit the parent container instead of just rendering at its native width and overflowing its containing box. */
    /* border: #c06 5px solid; */
+    
+    
+    /*------------------ TABLET ----------------------*/
+/* @media (max-width: 50em) {
+    
+   body {
+    background: aqua;  
+    }
+    
+article {
+    width: 95%;
+    padding: 0.5em;
+    } 
+    
+    img {
+    display: block;
+    margin: 1em auto;
+    padding: 0;
+    max-width: 100%;
+}
+} */
+
+/*----------- SMARTPHONE ----------- */
+ /*@media (max-width: 31em) {
+    
+   body {
+    margin: auto 0;
+    background: #BEE9C7;
+    width: 100%;
+    font-size: 110%;
+    }
+    
+article {
+    width: 90%;
+    } 
+h1 {font-size: 2.9em;}   
+    
+hgroup h2 {font-size: 1.5em;
+padding-top: 0.5em}      
+}
+nav ul li {font-size: .75em;
+        margin: 10px} */
