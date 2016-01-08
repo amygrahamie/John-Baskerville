@@ -1,18 +1,36 @@
+* { 
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+    line-height: 1em;
+}
 
 
+p, h1, h2, h3, blockquote, a, table, image
+{
+        width: 100%;
+        max-width: 700px;
+        min-width: 320px; /* REMINDER! MIN-WIDTH NOT MIN-HEIGHT */
+        font-size: 90%;
+        font-family: 'Libre Baskerville', 'Georgia';
+        margin: auto;   
+        background-colour: none;
+        color: darkgray;
+        line-height: 1.2em;
+    }
 
-body { 
-            width: 75%;
-            max-width: 700px;
-            min-height: 320px;
-            font-size: 100%;
-            font-family: 'Libre Baskerville', Georgia; 
-            margin: auto;
-            color: darkgray;
-            line-height: 1.7em;
-        }
 
-section {padding 4em 0 4em 0}
+header {padding-top: 1em} /* ADDING PADDING TO THE TOP SOLVED THE WHITE GAP ISSUE AT THE TOP */
+
+section {padding: 1em 0 1em 0}
+
+.darkgrey {
+    background-color: #333;
+}
+
+.paleturq {
+    background-color: paleturquoise;
+}
 
 
  /*-----------------HYPERLINKS--------------*/
@@ -23,80 +41,97 @@ section {padding 4em 0 4em 0}
 }
         /* unvisited link */
         a:link {
-        color: hotpink;
+        color: darkgray;
 }
 
 /* visited link */
         a:visited {
-        color: darkgray;
+        color: #333;
 }
 
 /* mouse over link */
 a:hover {
-    color: lightpink;
+    color: paleturquoise;
     border-bottom: 1px dotted;
 }
 
 
 /*----------- TYPOGRAPHY------------------- */
    
-p, li {
-    line-height: 1.8em;
-    margin-bottom: 2em;
-} 
 
-h1 {
+        h1 {
         font-weight: bolder;
-        font-size: 3.5em;
+        font-size: 5em;
         text-align: center;
         margin-bottom: .1em;
+        color: white;
+        margin-top: 1em;
         }
 
 
         h2 {
         font-weight: normal;
-        color: hotpink;
+        color: paleturquoise;
         font-size: 2em;
         text-align: center;
-        margin-bottom: 1em;
+        padding-bottom: .5em;
+        padding-top: .1em;
+        font-style: italic;
+        
         }
 
         h3 {
         font-weight: normal;
-        color: hotpink;
+        color: #333;
         font-size: 1.5em;
         text-align: center;
         }
 
-hgroup {
-    margin-bottom: 3em;
-}
-
-header h2 {text-align: center;
-font-style: italic;
-font-size: 1.8em;
-}
 
 .intro {
-        font-size: 1.25em;
-        line-height: 1.7em;
+    font-size: 110%;
+    padding-top: .5em;
+    padding-bottom: .5em;
+    color: #333;
+}
+
+p {
+    color: #333;
+    font-size: 100%;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    font-style: bold;
 }
 
 
 /* -------------NAV --------------- */
 
 nav {
-        border-top: 1px solid hotpink;
-        border-bottom: 1px solid hotpink;
-}
+        background-color: paleturquoise;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        margin: auto 0;
+        padding: 1.5em 0;
+        opacity: 0.8;
+    }
 
-nav ul {
-    text-align: center;
-}
+    nav ul {
+        text-align: center;
+        letter-spacing: 1px;}
+    
+    nav ul li {
+        display: inline;
+        margin: 15px;}
 
-nav ul li { display: inline;
-            margin: 10px;
-}
+nav a:hover {
+    color: white;
+    border-bottom: none;
+    transition: all 0.2s ease-in-out; 
+    }
+
+
+
 
 
 blockquote {
@@ -105,17 +140,15 @@ blockquote {
     font-size: 1.30em;
     margin: 0;
 }
-blockquote {
-            padding: 2em 0;
+
+blockquote {align-content: center;
             font-size: 1.5em;
             line-height: 1.5em;
             margin: 0;
-            border-top: 1px solid hotpink;
-            border-bottom: 1px solid hotpink;
 }
 
 blockquote p {
-    color: hotpink;
+    color: darkturquoise;
     hanging-punctuation: first;
     text-indent: -0.5em;
 }
@@ -125,13 +158,14 @@ blockquote cite {
     font-size: 0.75em;
 }
 
+
+
 table caption {
     font-weight: bolder;
     text-align: center;
-    color: hotpink;
-    text-transform: uppercase;
-    font-size: .95em;
+    color: #333;
     padding-bottom: .6em;
+    font-size: 130%;
 }
 
 table {
@@ -141,18 +175,21 @@ table {
             display: table;
             border-collapse: collapse;
             border-spacing: 3px;
+            padding-top: 1em;
+            margin-top: 2em;
+            background-color: azure;
 }
 
 th {
             color: #333;
             text-transform: uppercase;
-            font-weight: normal;
+            text-emphasis: bold;
             text-align: center;
-            background: hotpink;
+            background: darkturquoise;
 }
  
 table, th, td {
-            border: 1px solid black;
+            border: 1px solid paleturquoise;
 }
 
 th, td {
