@@ -32,6 +32,10 @@ section {padding: 1em 0 1em 0}
     background-color: paleturquoise;
 }
 
+.social:hover {
+    opacity: 0.5;
+}
+
 
  /*-----------------HYPERLINKS--------------*/
 
@@ -83,15 +87,17 @@ a:hover {
         h3 {
         font-weight: normal;
         color: #333;
-        font-size: 1.5em;
+        font-size: 2em;
         text-align: center;
+        padding-top: .5em;
+        padding-bottom: .3em;
         }
 
 
 .intro {
     font-size: 110%;
-    padding-top: .5em;
-    padding-bottom: .5em;
+    padding-top: 1em;
+    padding-bottom: 1em;
     color: #333;
 }
 
@@ -101,6 +107,13 @@ p {
     padding-top: 1em;
     padding-bottom: 1em;
     font-style: bold;
+}
+
+.small {
+    color: #333;
+    font-size: 70%;
+    text-align: center;
+    padding-top: .5em;
 }
 
 
