@@ -34,7 +34,15 @@ section {padding: 1em 0 1em 0}
 
 .social:hover {
     opacity: 0.5;
+    z-index: 15;
 }
+
+.social {
+    align-content: center;
+    display: inline;
+}
+
+
 
 
  /*-----------------HYPERLINKS--------------*/
@@ -126,7 +134,7 @@ nav {
         width: 100%;
         margin: auto 0;
         padding: 1.5em 0;
-        opacity: 0.8;
+        opacity: 0.9;
     }
 
     nav ul {
