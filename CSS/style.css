@@ -30,6 +30,12 @@ section {padding: 1em 0 1em 0}
 
 .paleturq {
     background-color: paleturquoise;
+    opacity: 0.9;
+}
+
+.darkturq {
+    background-color: darkturquoise;
+    opacity: 0.9;
 }
 
 .social:hover {
@@ -121,7 +127,11 @@ p {
     color: #333;
     font-size: 70%;
     text-align: center;
-    padding-top: .5em;
+    padding-top: 1em;
+}
+
+.contact {
+    color: darkturquoise;
 }
 
 
@@ -198,7 +208,9 @@ table {
             border-spacing: 3px;
             padding-top: 1em;
             margin-top: 2em;
+            margin-bottom: 2em;
             background-color: azure;
+            color: #333;
 }
 
 th {
@@ -206,7 +218,7 @@ th {
             text-transform: uppercase;
             text-emphasis: bold;
             text-align: center;
-            background: darkturquoise;
+            background-color: lightgray;
 }
  
 table, th, td {
