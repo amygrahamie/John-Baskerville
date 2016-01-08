@@ -26,3 +26,5 @@ Each week we will be building on this project as we progress through HTML and CS
 30th November 2015
 ------------------
 - [Version 7](https://amygrahamie.github.io/John-Baskerville/version7.html) - Taking CSS a step further. Adding CSS reset, style the table and fluid images
+
+- - [Version 8](https://amygrahamie.github.io/John-Baskerville/version8.html)
