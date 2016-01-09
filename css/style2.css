@@ -1,5 +1,7 @@
 body, header, section {
     max-width: 100%;
+    padding-left: 0;
+    padding-right: 0;
     
 }
 
@@ -11,7 +13,8 @@ p, h1, h2, h3, blockquote, a, table, image
         min-width: 320px; /* REMINDER! MIN-WIDTH NOT MIN-HEIGHT */
         font-size: 90%;
         font-family: 'Libre Baskerville', 'Georgia';
-        margin: auto;   
+        margin: auto;
+        padding: 0;
         color: darkgray;
         line-height: 1.2em;
     }
@@ -142,8 +145,8 @@ p {
 
 .arrow {
     position: fixed;
-    right: 140px;
-    top: 70px;
+    right: 100px;
+    top: 60px;
     color: hotpink;
 }
 
