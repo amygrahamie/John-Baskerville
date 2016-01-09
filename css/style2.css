@@ -1,4 +1,7 @@
-
+body, header, section {
+    max-width: 100%;
+    
+}
 
 
 p, h1, h2, h3, blockquote, a, table, image
@@ -163,7 +166,6 @@ nav {
         top: 0;
         width: 100%;
         margin: auto 0;
-        padding: 1.5em 0;
         opacity: 0.9;
     }
 
@@ -256,7 +258,7 @@ img {
    /* border: #c06 5px solid; */
     
     
-    /*------------------ TABLET ----------------------*/
+    /*------------------ TABLET ----------------------
 /* @media (max-width: 50em) {
     
    body {
@@ -276,7 +278,7 @@ article {
 }
 } */
 
-/*----------- SMARTPHONE ----------- */
+/*----------- SMARTPHONE ----------- 
  /*@media (max-width: 31em) {
     
    body {
