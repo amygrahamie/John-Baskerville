@@ -14,7 +14,6 @@ p, h1, h2, h3, blockquote, a, table, image
         font-size: 90%;
         font-family: 'Libre Baskerville', 'Georgia';
         margin: auto;   
-        background-colour: none;
         color: darkgray;
         line-height: 1.2em;
     }
@@ -24,19 +23,23 @@ header {padding-top: 1em} /* ADDING PADDING TO THE TOP SOLVED THE WHITE GAP ISSU
 
 section {padding: 1em 0 1em 0}
 
-.darkgrey {
+/*---------------------------------*/
+
+div.darkgrey {
     background-color: #333;
 }
 
-.paleturq {
+div.paleturq {
     background-color: paleturquoise;
     
 }
 
-.darkturq {
+div.darkturq {
     background-color: darkturquoise;
   
 }
+
+/*---------------------------------*/
 
 .social:hover {
     opacity: 0.5;
@@ -95,7 +98,6 @@ a:hover {
         padding-bottom: .5em;
         padding-top: .1em;
         font-style: italic;
-        
         }
 
         h3 {
