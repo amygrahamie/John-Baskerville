@@ -44,14 +44,12 @@ div.darkturq {
 
 .social:hover {
     opacity: 0.5;
-    z-index: 15;
 }
 
 .social {
     align-content: center;
     display: inline;
-    margin-bottom: 1em;
-    margin-top: .5em;
+    
     
 }
 
