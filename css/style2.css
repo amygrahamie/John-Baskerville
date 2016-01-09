@@ -1,0 +1,303 @@
+* { 
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+    line-height: 1em;
+}
+
+
+p, h1, h2, h3, blockquote, a, table, image
+{
+        width: 100%;
+        max-width: 700px;
+        min-width: 320px; /* REMINDER! MIN-WIDTH NOT MIN-HEIGHT */
+        font-size: 90%;
+        font-family: 'Libre Baskerville', 'Georgia';
+        margin: auto;   
+        color: darkgray;
+        line-height: 1.2em;
+    }
+
+
+header {padding-top: 1em} /* ADDING PADDING TO THE TOP SOLVED THE WHITE GAP ISSUE AT THE TOP */
+
+section {padding: 1em 0 1em 0}
+
+/*---------------------------------*/
+
+div.darkgrey {
+    background-color: #333;
+}
+
+div.paleturq {
+    background-color: paleturquoise;
+    
+}
+
+div.darkturq {
+    background-color: darkturquoise;
+  
+}
+
+/*---------------------------------*/
+
+.social:hover {
+    opacity: 0.5;
+    z-index: 15;
+}
+
+.social {
+    align-content: center;
+    display: inline;
+}
+
+
+
+
+ /*-----------------HYPERLINKS--------------*/
+
+        a:link {
+        text-decoration: none;
+            letter-spacing: 2px;
+}
+        /* unvisited link */
+        a:link {
+        color: darkgray;
+}
+
+/* visited link */
+        a:visited {
+        color: #333;
+}
+
+/* mouse over link */
+a:hover {
+    color: paleturquoise;
+    border-bottom: 1px dotted;
+}
+
+
+/*----------- TYPOGRAPHY------------------- */
+   
+
+        h1 {
+        font-weight: bolder;
+        font-size: 5em;
+        text-align: center;
+        margin-bottom: .1em;
+        color: white;
+        margin-top: 1em;
+        }
+
+
+        h2 {
+        font-weight: normal;
+        color: paleturquoise;
+        font-size: 2em;
+        text-align: center;
+        padding-bottom: .5em;
+        padding-top: .1em;
+        font-style: italic;
+        }
+
+        h3 {
+        font-weight: normal;
+        color: #333;
+        font-size: 2em;
+        text-align: center;
+        padding-top: .3em;
+        padding-bottom: .3em;
+        border: 2px solid white;
+        }
+
+
+.intro {
+    font-size: 110%;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    color: #333;
+}
+
+p {
+    color: #333;
+    font-size: 100%;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    font-style: bold;
+    text-align: left;
+}
+
+.small {
+    color: #333;
+    font-size: 70%;
+    text-align: center;
+    padding-top: 1em;
+    font-style: italic;
+}
+
+.contact {
+    color: darkturquoise;
+    align-content: center;
+}
+
+/*-----------------------------------------*/
+
+.arrow {
+    position: fixed;
+    right: 140px;
+    top: 70px;
+    color: hotpink;
+}
+
+.arrow:hover {
+    opacity: 0.5;
+}
+
+/*-----------------------------------------*/
+
+.Mrseaves {
+    max-width: 60%;
+}
+
+
+/* -------------NAV --------------- */
+
+nav {
+        background-color: paleturquoise;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        margin: auto 0;
+        padding: 1.5em 0;
+        opacity: 0.9;
+    }
+
+    nav ul {
+        text-align: center;
+        letter-spacing: 1px;}
+    
+    nav ul li {
+        display: inline;
+        margin: 15px;}
+
+nav a:hover {
+    color: white;
+    border-bottom: none;
+    transition: all 0.2s ease-in-out; 
+    }
+
+
+/*-----------------------------------------*/
+
+
+blockquote {
+    padding: 1em 0 2em 0;
+    line-height: 1.2em;
+    font-size: 1.30em;
+    margin: 0;
+    text-align: center;
+}
+
+blockquote p {
+    color: darkturquoise;
+    hanging-punctuation: first;
+    text-indent: -0.5em;
+    text-align: center;
+}
+
+blockquote cite { 
+    font-style: italic;
+    font-size: 0.75em;
+}
+
+/*-----------------------------------------*/
+
+table caption {
+    font-weight: bolder;
+    text-align: center;
+    color: #333;
+    padding-bottom: .6em;
+    margin-bottom: 1em;
+    font-size: 120%;
+}
+
+table {
+            table: center;
+            margin: auto;
+            width: 100%
+            display: table;
+            border-collapse: collapse;
+            border-spacing: 3px;
+            padding-top: 1em;
+            margin-top: 2em;
+            margin-bottom: 2em;
+            background-color: azure;
+            color: #333;
+}
+
+th {
+            color: #333;
+            text-transform: uppercase;
+            text-emphasis: bold;
+            text-align: center;
+            background-color: lightgray;
+}
+ 
+table, th, td {
+            border: 1px solid paleturquoise;
+}
+
+th, td {
+    padding: .6em;
+}
+
+-----------------------------------------------------
+
+img {
+    display: block;
+    margin: 1em auto; /* This sets the margin top and bottom to 0px. The auto on the left and right will automatically calculate the space either side and split it evenly between the two margins. */
+    padding: 0;
+    max-width: 100%; /* This means that the images will resize to fit the parent container instead of just rendering at its native width and overflowing its containing box. */
+   /* border: #c06 5px solid; */
+    
+    
+    /*------------------ TABLET ----------------------*/
+/* @media (max-width: 50em) {
+    
+   body {
+    background: aqua;  
+    }
+    
+article {
+    width: 95%;
+    padding: 0.5em;
+    } 
+    
+    img {
+    display: block;
+    margin: 1em auto;
+    padding: 0;
+    max-width: 100%;
+}
+} */
+
+/*----------- SMARTPHONE ----------- */
+ /*@media (max-width: 31em) {
+    
+   body {
+    margin: auto 0;
+    background: #BEE9C7;
+    width: 100%;
+    font-size: 110%;
+    }
+    
+article {
+    width: 90%;
+    } 
+h1 {font-size: 2.9em;}   
+    
+hgroup h2 {font-size: 1.5em;
+padding-top: 0.5em}      
+}
+nav ul li {font-size: .75em;
+        margin: 10px} */
