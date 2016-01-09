@@ -138,16 +138,20 @@ p {
     align-content: center;
 }
 
+/*-----------------------------------------*/
+
 .arrow {
     position: fixed;
-    right: 130px;
-    top: 60px;
+    right: 140px;
+    top: 70px;
     color: hotpink;
 }
 
 .arrow:hover {
     opacity: 0.5;
 }
+
+/*-----------------------------------------*/
 
 .Mrseaves {
     max-width: 60%;
@@ -181,7 +185,7 @@ nav a:hover {
     }
 
 
-
+/*-----------------------------------------*/
 
 
 blockquote {
@@ -204,14 +208,14 @@ blockquote cite {
     font-size: 0.75em;
 }
 
-
+/*-----------------------------------------*/
 
 table caption {
     font-weight: bolder;
     text-align: center;
     color: #333;
-    padding-bottom: .6em;
-    font-size: 130%;
+    margin-bottom: 1em;
+    font-size: 120%;
 }
 
 table {
@@ -244,13 +248,7 @@ th, td {
     padding: .6em;
 }
 
-footer {
-    line-height: 1.2em;
-    padding-bottom: 2em;
-}
-
-.footer padding { padding-top: 3em;
-}
+-----------------------------------------------------
 
 img {
     display: block;
