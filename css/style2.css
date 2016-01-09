@@ -50,7 +50,8 @@ div.darkturq {
 .social {
     align-content: center;
     display: inline;
-    padding-bottom: 1em;
+    margin-bottom: 1em;
+    margin-top: .5em;
     
 }
 
