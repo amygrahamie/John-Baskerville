@@ -103,7 +103,7 @@ a:hover {
         color: #333;
         font-size: 2em;
         text-align: center;
-        padding-top: .5em;
+        padding-top: .3em;
         padding-bottom: .3em;
         border: 2px solid white;
         }
@@ -214,6 +214,7 @@ table caption {
     font-weight: bolder;
     text-align: center;
     color: #333;
+    padding-bottom: .6em;
     margin-bottom: 1em;
     font-size: 120%;
 }
